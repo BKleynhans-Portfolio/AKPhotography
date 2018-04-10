@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="../globalstyles.css" rel="stylesheet" type="text/css" />        
+        
+        <title>
+            AK Photography
+        </title>
+              
+        <style>
+            .bodycontainer form{
+                padding-left: 100px;
+                padding-right: 50px;
+                padding-top: 100px;
+                width: 97.5%;
+                height: 434px;
+                font-family: arial, sans-serif;
+                overflow: auto;
+                white-space: nowrap;
+                float: left;                
+            }
+            
+            .username {
+                float: left;
+                width: 6em;
+            }
+      </style>
+    </head>
+    <body>
+        <div id="wrapper"><!-- Open Wrapper -->
+            <div id="header">                
+                <ul class="topnavcontainer">
+                    <li>
+                        <a href="../index.html" title="Home">
+                            <div class="topnavlist">
+                                Home
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="gallery.html" title="Gallery">
+                            <div class="topnavlist">
+                                Gallery
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html" title="About">
+                            <div class="topnavlist">
+                                About
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="order.html" title="Order">
+                            <div class="topnavlist">
+                                Order
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" title="Contact">
+                            <div class="topnavlist" style="border: thick outset;">
+                                Contact
+                            </div>
+                        </a>
+                    </li>                    
+                </ul>
+            </div>
+            
+            <div class="leftnavcontainer">
+                <img src="../images/logos/signature.jpg"
+                     alt="" /> 
+            </div>
+            
+            <div class="bodycontainer">
+                <form action="mailto:allisonkleynhans@gmail.com"
+                    method="post" enctype="text/plain">                    
+
+                    <h1 style="font-family: times, arial, sans-serif;
+                            font-style: italic;">
+                        Contact Me
+                    </h1>
+
+                    <p>
+                        <label class="username" for="FirstName">First Name: </label>
+                        <input type="text"
+                               name="firstname"
+                               id="FirstName"
+                               size="35" maxlength="35" />
+                    </p>
+                    <p>
+                        <label class="username" for="LastName">Last Name: </label>
+                        <input type="text"
+                               name="lastname"
+                               id="LastName"
+                               size="35" maxlength="35" />
+                    </p>
+                    <p>
+                        <label class="username" for="email">email: </label>
+                        <input type="text"
+                               name="email"
+                               id="email"
+                               size="35" maxlength="35" />
+                    </p>
+                    <p>
+                        <label class="username" for="telephone">Telephone: </label>
+                        <input type="text"
+                               name="telephone"
+                               id="telephone"
+                               size="35" maxlength="35" />
+                    </p>
+                    <p class="submit">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Clear" />
+                    </p>
+
+                </form>
+            </div>
+            
+            <div id="footercontainer">            
+                <footer id="footer">                    
+                    <p style="float: left; font-">Developed by : Benjamin Kleynhans</p>
+                    <p style="float: right;">All rights reserved</p>
+                </footer>
+            </div>
+        </div><!-- Close Wrapper -->
+    </body>
+</html>
